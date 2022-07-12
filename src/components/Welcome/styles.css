@@ -1,0 +1,43 @@
+.container-apresentation{
+    height: 416px;
+    weight: 100%;
+    background: #0F1410;
+    padding: 0 60px;
+    display:flex;
+    align-items: center;
+
+
+}
+.container-name{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.apresentation{
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+color: #FFFFFF;
+
+
+}
+
+.name-pink{
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 37px;
+text-align: center;
+color: #F1889B;
+
+}
+.name-white{
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 37px;
+text-align: center;
+color: #FFFFFF;
+}
