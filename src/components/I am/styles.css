@@ -1,0 +1,40 @@
+.container-iam{
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 37px;
+color: #FFFFFF;
+weight:100%;
+display:flex;
+height: auto;
+border: 1px solid #F1889B;
+padding: 44px;
+flex-direction: column;
+
+}
+
+.container-information{
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #FFFFFF;
+width: 631px;
+height: 192px;
+margin-top:25px;
+
+}
+.container-code{
+width:100%;
+height: auto;
+top:608px;
+left:289px;
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+.container-I{
+ color: #F1889B; 
+ font-size: 48px;
+
+}

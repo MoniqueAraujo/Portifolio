@@ -1,0 +1,23 @@
+.container-conhecimentos{
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 37px;
+weight:267px;
+height:44px;
+color: #FFFFFF;
+
+}
+.container-p{
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #A7A7A7;
+display:flex;
+width: 480px;
+}
+.container-ponto{
+color: #F1889B; 
+font-size: 48px;
+}
