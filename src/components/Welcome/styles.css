@@ -1,7 +1,8 @@
 .container-apresentation{
     height: 416px;
     weight: 100%;
-    background:  #181818; ;
+    background-color: #010405;
+  
     padding: 0 60px;
     display:flex;
     align-items: center;

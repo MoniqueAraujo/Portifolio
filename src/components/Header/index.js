@@ -5,7 +5,7 @@ import './styles.css';
 function Header() {
     return (
         <header className="container-header" >
-            <div className='header' >
+            <div className='header' style={{}}>
                 <span> {`${"< Monique Araujo />"}`} </span>
                 <div>
                     <button className='btn'>Sobre mim</button>

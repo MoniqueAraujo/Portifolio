@@ -8,14 +8,17 @@
     display: flex;
     color: #FFFFFF; 
     height:40px;
-    background-color: #181818;   
+    
 }
 .header{
 display: flex;
 justify-content: space-between;
 width: 100%;
-alignItems: center;
+align-items: center ;
 padding: 0 60px; 
+background-color: #181818;
+
+
 }
 
 .btn {
