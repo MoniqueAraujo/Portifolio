@@ -1,11 +1,13 @@
 .container-apresentation{
     height: 416px;
     weight: 100%;
-    background: #0F1410;
+    background-color: #010405;
+  
     padding: 0 60px;
     display:flex;
     align-items: center;
     justify-content: space-between;
+    
      
 }
 .container-name{

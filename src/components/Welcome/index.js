@@ -16,7 +16,7 @@ function Welcome() {
         <div className='container-apresentation'>
             <div className='container-name'>
                 <span className='apresentation'>Olá, meu nome é</span>
-                <div><span className='name-pink' style={{ color: '#F1889B' }}>Mon</span><span className='name-white' style={{ color: '#ffffff' }}>ique</span> <span className='name-pink' style={{ color: '#F1889B' }}>Ara</span><span className='name-white' style={{ color: '#ffffff' }}>ujo</span></div>
+                <div><span className='name-pink' style={{ color: '#F1889B' }}>Mon<span className='name-white' style={{ color: '#ffffff' }}>ique </span></span>  <span className='name-pink' style={{ color: '#F1889B' }}> Ara</span><span className='name-white' style={{ color: '#ffffff' }}>újo</span></div>
             </div>
             <div>
                 <Lottie options={defaultOptions}
