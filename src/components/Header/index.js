@@ -1,18 +1,23 @@
 import './styles.css';
+import DropdownMobile from '../Dropdown';
+
 
 
 
 function Header() {
     return (
         <header className="container-header" >
-            <div className='header' style={{}}>
+            <div className='header' >
                 <span> {`${"< Monique Araujo />"}`} </span>
-                <div>
-                    <button className='btn'>Sobre mim</button>
-                    <button className='btn'>Conhecimentos</button>
-                    <button className='btn'>Projetos</button>
-                    <button className='btn'>Contatos</button>
+
+                <div className='container-div'>
+                    <button className='btn' ><a style={{ color: 'inherit', textDecoration: 'none' }} href='#containerIam'>Sobre mim</a></button>
+                    <button className='btn'><a style={{ color: 'inherit', textDecoration: 'none' }} href='#containerApprenticeship'>Conhecimentos</a></button>
+                    <button className='btn'><a style={{ color: 'inherit', textDecoration: 'none' }} href="#cardProject">Projetos</a></button>
+                    <button className='btn'><a style={{ color: 'inherit', textDecoration: 'none' }} href="#Contacts">Contatos</a></button>
                 </div>
+                <DropdownMobile className='dropdown' />
+
             </div>
         </header>
     )

@@ -1,0 +1,97 @@
+.container-span{
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 37px;
+text-align: center;
+color: #FFFFFF;
+weight:100%;
+height: auto;
+border: 1px solid #F1889B;
+padding: 44px;
+
+
+}
+.span-project{
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 37px;
+
+}
+.card-description{
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+color: #FFFFFF;
+}
+.cards{
+display: flex; 
+margin-top: 20px;
+justify-content: space-between;
+
+}
+.card-title{
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+color: #F1889B;
+display:flex;
+margin-top: 10px;
+    
+}
+.btn-card{
+width: 136px;
+height: 40px;
+left: 246px;
+top: 1920px;
+background: #F1889B;
+border-radius: 4px;
+border:none;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+color: #FFFFFF;
+display: flex;
+align-items: center;
+text-align: center;
+
+}
+.btn-logo{
+left: 32px;
+right: 65px;
+top: 65px;
+bottom: 33px;
+display: flex;
+}
+
+@media (max-width: 576px) {
+    .container-span{
+        margin-top: 30px;
+        padding:15px 0 30px 0;
+    }
+    
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        grid-row-gap:15px;
+    }
+}
+@media (max-width: 1200px) { 
+    .container-span{
+        margin-top: 30px;
+            
+    }
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        grid-gap: 15px;
+        justify-content: center;
+    }
+    
+}
