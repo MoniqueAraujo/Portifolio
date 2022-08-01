@@ -1,3 +1,4 @@
+
 .container-header{
     font-family: 'Ubuntu';
     font-style: normal;
@@ -11,12 +12,12 @@
     
 }
 .header{
-display: flex;
-justify-content: space-between;
-width: 100%;
-align-items: center ;
-padding: 0 60px; 
-background-color: #181818;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center ;
+    padding: 0 60px; 
+    background-color: #181818;
 
 
 }
@@ -33,8 +34,43 @@ background-color: #181818;
 }
  
 .btn:hover{
-    background-color: #F1889B;
+    background-color: #F1889B !important;
     transition: background-color 0.6s ease;
-    border-radius: 4px;
-    color: rgba(0, 0, 0, 1);
+    border: none;
 }
+
+
+@media (max-width: 1000px) { 
+        .container-div{
+            display:flex;
+            display:none !important;
+            justify-content: space-between;
+            width: 100% ;
+            padding: 0 !important; 
+            }
+
+            .header{
+                padding: 0; 
+                display: flex;   
+            }  
+            
+            .dropdown{
+                display:none ;
+            }
+            
+            
+    }
+  
+            @media (min-width: 1000px) { 
+                    .dropdown{
+                        display:none !important;
+                    
+                        .dropdown{
+                            display:flex !important;
+                }
+            
+                .drop{
+                    visibility:visible !important;
+                }
+            }      
+            }

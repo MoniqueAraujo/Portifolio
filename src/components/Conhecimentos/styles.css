@@ -1,4 +1,4 @@
-.container-conhecimentos{
+.container-apprenticeship{
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 400;
@@ -6,8 +6,19 @@ font-size: 37px;
 weight:267px;
 height:44px;
 color: #FFFFFF;
-
-
+}
+.wrapper-apprenticeship{
+display: flex;
+margin: 100px 65px; 
+align-items: center;
+justify-content: space-between;
+}
+.wrapper-skills{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+row-gap: 20px;
+column-gap: 20px;
+width: 400px;
 }
 .container-p{
 font-family: 'Ubuntu';
@@ -18,7 +29,53 @@ color: #A7A7A7;
 display:flex;
 width: 480px;
 }
-.container-ponto{
+.container-full-stop{
 color: #F1889B; 
 font-size: 48px;
+}
+
+@media (max-width: 576px) { 
+    .wrapper-apprenticeship{
+        display:flex;
+        flex-direction:column;
+        width:100%;  
+        margin: 0;
+        padding-top: 15px; 
+    }
+    .wrapper-skills{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        row-gap: 15px;
+        column-gap: 15px;
+        width: 30%;
+        justify-content: center;
+        padding-top: 15px;
+        
+    }
+    .container-p{
+        width:auto;   
+    
+}
+}
+@media (max-width: 1200px) { 
+    .wrapper-apprenticeship{
+        display:flex;
+        flex-direction:column;
+        width:100%;  
+        margin: 50px 0;
+    }
+    .wrapper-skills{
+        display: grid;
+        row-gap: 15px;
+        column-gap: 15px;
+        width: 30%;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+    }
+    .container-p{
+        width:auto;   
+    
+}
 }

@@ -12,18 +12,16 @@ function Iam() {
         }
     };
     return (
-        <div className='container-iam'  >
+        <div id='containerIam' className='container-iam'  >
 
-
-
-            <div className='container-code' style={{ justifyContent: 'space-between', display: 'flex', }}>
+            <div className='container-code'>
                 <div>
                     <Lottie options={defaultOptions}
                         width={320}
                         height={320}
                     />
                 </div>
-                <div>
+                <div style={{ display: 'flex', width: '100%', flexDirection: 'column', textAlign: 'center' }}>
 
                     <span >Quem sou<span className='container-I' >.</span></span>
                     <p className='container-information'>Olá! Sou a Monique Araújo, tenho 24 anos. Estou cursando Análise e desenvolvimento de sistemas.
