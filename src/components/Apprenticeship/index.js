@@ -4,7 +4,7 @@ import { skills } from "../../constants";
 import { useState } from "react";
 import { PieChart } from "react-minimal-pie-chart";
 
-function Conhecimentos() {
+function Apprenticeship() {
   const [tooltip, showTooltip] = useState(true);
 
   return (
@@ -130,4 +130,4 @@ function Conhecimentos() {
   );
 }
 
-export default Conhecimentos;
+export default Apprenticeship;
