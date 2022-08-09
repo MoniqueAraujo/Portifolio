@@ -16,7 +16,7 @@ export const cards = [
     imageUrl: netflixPng,
     title: "CLONE NETFLIX",
     description: "Projeto: CLONE NETFLIX, criado com HTML, CSS, e JavaScript.",
-    projectUrl: "https://clone-flix-lyart.vercel.app/",
+    projectUrl: "https://clone-flix-liart.vercel.app/",
     githubUrl: "https://github.com/MoniqueAraujo/Clone-flix",
   },
   {
